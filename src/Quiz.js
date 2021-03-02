@@ -22,7 +22,7 @@ class Quiz extends Component {
     this.setState({ quiz_position: 1 });
   }
   render() {
-    const isQuizEnd = false;
+    const isQuizEnd = true;
     // this.state.quiz_position - 1 === quizData.quiz_questions.length;
     return (
       <div>
