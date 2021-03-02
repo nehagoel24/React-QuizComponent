@@ -12,7 +12,7 @@ class Quiz extends Component {
     };
   }
   render() {
-    const isQuizEnd = false;
+    const isQuizEnd = true;
     return (
       <div>
         {isQuizEnd ? (
